@@ -741,14 +741,6 @@ public class RadialProgressIndicator extends View {
     }
 
     /**
-     * Set whether the radial indicator should smoothly animate or jump immediately to latest progress
-     * @param smoothAnimation
-     */
-    public void setSmoothAnimation(boolean smoothAnimation) {
-        this.smoothAnimation = smoothAnimation;
-    }
-
-    /**
      * Set the upper limit of the radial indicator's primary progress track to be between
      * [0 .. maxProgress].
      *
